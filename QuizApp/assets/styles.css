@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+body{
+    background: #001e4d;
+}
+.app{
+    background: #fff;
+    /* width: 90%; */
+    max-width: 600px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 30px 30px 0px;
+}
+
+.app h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #001e4d;
+    border-bottom: 1px solid #333;
+    /* padding: 30px; */
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.quiz{
+    padding: 20px 0px;
+}
+.quiz h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #001e4d;
+}
+.btn{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #001e4d;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    /* background: #001e4d;
+    color: #fff;
+    width: 150px;
+    margin: 20px auto 0;
+    padding: 10px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    display: block; */
+    width: 80px;
+    border: 0px;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #001e4d;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+}
+.exit-btn{
+    width: 80px;
+    border: 0px;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #001e4d;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center; 
+}
+.bottom-div{
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-around;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.correct{
+    background: rgb(97, 249, 15);
+}
+.incorrect{
+    background: rgb(247, 6, 6);
+}
+#custom-color{
+    color: rgb(9, 0, 113) !important;
+}
+.start-quiz-btn{
+    color: #fff;
+    display: flex;
+    height: 40px;
+    margin: 10px 220px;
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+    background: #001e4d;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.custom-app{
+    /* padding: 30px 30px 30px !important; */
+    height: 21vh;
+}
